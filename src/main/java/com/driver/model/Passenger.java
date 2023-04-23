@@ -18,6 +18,7 @@ public class Passenger {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int passengerId;
+     private  int p;
 
     private String name;
 
